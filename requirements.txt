@@ -1,3 +1,4 @@
+adjustText==1.4.0
 anndata==0.13.4
 annotated-types==0.8.0
 array-api-compat==1.16.0

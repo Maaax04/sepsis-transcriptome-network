@@ -1,5 +1,4 @@
 """Performs differential expression analysis on the cleaned RNA-seq data."""
-import os
 
 import pandas as pd
 import numpy as np
