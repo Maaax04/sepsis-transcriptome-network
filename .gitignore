@@ -1,6 +1,5 @@
-# ==========================================
 # Python & Virtual Environments
-# ==========================================
+
 .venv/
 venv/
 env/
@@ -16,18 +15,18 @@ dist/
 .pytest_cache/
 .mypy_cache/
 
-# ==========================================
+
 # IDEs & Editors (PyCharm / Jupyter)
-# ==========================================
+
 .idea/
 *.iml
 .ipynb_checkpoints/
 .vscode/
 
-# ==========================================
+
 # Bioinformatics Raw Data & Large Files
 # (Downloaded programmatically via 01_fetch_data.py)
-# ==========================================
+
 data/*
 !data/.gitkeep
 *.csv.gz
@@ -43,9 +42,9 @@ data/*
 *.rds
 *.RData
 
-# ==========================================
+
 # OS-Specific Files (Linux / macOS)
-# ==========================================
+
 *~
 .fuse_hidden*
 .directory
