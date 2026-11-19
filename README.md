@@ -99,5 +99,5 @@ python src/05_functional_enrichment.py
 
 ## Tech Stack
 * **Data Processing & Statistics:** `pandas`, `numpy`, `scipy`, `statsmodels`
-* **Network Analysis & APIs:** `networkx`, `requests` (STRING REST API v12)
+* **Network Analysis & APIs:** `networkx`, `requests` (STRING REST API)
 * **Visualization:** `matplotlib`, `adjustText`
