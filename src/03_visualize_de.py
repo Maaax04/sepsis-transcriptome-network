@@ -50,7 +50,7 @@ def main() -> None:
     ax.set_title("Volcano Plot of Differential Expression Results")
 
     FIGURES_DIR.mkdir(parents=True, exist_ok=True)
-    plt.savefig(FIGURES_DIR/"volcano_plot.png", dpi=300, bbox_inches="tight")
+    plt.savefig(FIGURES_DIR/"GSE154918_volcano_plot.png", dpi=300, bbox_inches="tight")
 
 
 if __name__ == "__main__":
