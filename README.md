@@ -70,6 +70,7 @@ sepsis-transcriptome-network/
 │   └── 05_functional_enrichment.py
 ├── .gitignore
 ├── requirements.txt
+├── run_pipeline.py
 └── README.md
 ```
 
@@ -87,6 +88,10 @@ pip install -r requirements.txt
 ```
 
 ### 2. Run the pipeline sequentially
+```bash
+python run_pipeline.py
+```
+or run each step individually:
 ```bash
 python src/01_fetch_data.py
 python src/02_diff_expression.py
